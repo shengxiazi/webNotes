@@ -1,0 +1,81 @@
+// 层叠样式表
+
+/*正则表达式（正则对象） start*/
+.regExp {
+	position: relative;
+}
+.container h3 {
+	font-size: 26px;
+	font-family: "微软雅黑";
+}
+.container li {
+	float: left;
+	margin-right: 20px;
+	font-family: "微软雅黑";
+}
+.regExp li.four {
+	float: none;
+}
+.regExp li.five {
+	position: absolute;
+	top: 510px;
+	right: 360px;
+}
+.container h4 {
+	color: red;
+}
+.container span {
+	color: red;
+}
+/*正则表达式（正则对象） end*/
+
+/*事件对象 start*/
+.event {
+	position: relative;
+	height: 675px;
+}
+.event .big {
+	position: absolute;
+	top: 250px;
+	left: 50px;
+}
+.event .mouse {
+	position: absolute;
+	top: 450px;
+	left: 42px;
+}
+.mouse .r {
+	position: absolute;
+	top: 48px;
+	left: 582px;
+	width: 300px;
+	height: 200px;
+	line-height: 25px;
+}
+/*事件对象 end*/
+
+/*jQuery库 start*/
+.tool {
+	position: relative;
+	line-height: 25px;
+	height:2960px;
+}
+.tool li {
+	// float: none;
+	margin-right: 30px;
+}
+.tool .j5 {
+	position: relative;
+	top: 40px;
+	right: 470px;
+}
+/*jQuery库 end*/
+
+/*BOM浏览器对象模型 start*/
+.browser {
+	position: relative;
+}
+.browser li {
+	float: none;
+}
+/*BOM浏览器对象模型 end*/
